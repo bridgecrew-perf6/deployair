@@ -35,11 +35,11 @@ const Card = () => {
             </div>
             <div className="grouptext">
               <h3>DATE</h3>
-              <p>11.03.2020</p>
+              <p>28.04.2022</p>
             </div>
             <div className="grouptext">
               <h3>WEATHER</h3>
-              <h1>25°C</h1>
+              <h1>{currentData.temperature}°C</h1>
             </div>
 
             <div className="productImage">
